@@ -1,0 +1,308 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	 font-family: sans-serif;
+	 background-color: #edeff0;
+}
+header {
+	background-color: #fff;
+}
+ 
+header a{
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+header #logo{
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+header nav li{
+	display: inline-block;
+}
+header nav a:hover{
+	background-color: rgba(0,0,0,.1);
+}
+header .active{
+	background-color: rgba(0,0,0,.1);
+}
+
+/*****HEADER*****/
+#intro {
+	min-height: 400px;
+	background-image: url(Acre-Property.jpg);
+	background-size: cover;	
+}
+.intro-text{
+	text-align: center;
+	position: relative;
+	top: 100px;
+	background-color: rgba(0,0,0,.2);
+}
+.intro-text h2{
+	padding: 15px;
+	color: #fff;
+	/* background-color: rgba(0,0,0,.2); */
+}
+.intro-text h3{
+	padding: 10px;
+	color: #fff;
+	/* background-color: rgba(0,0,0,.2); */
+}
+ #btn {
+	 text-align: center;
+	 margin-top: 100px;
+ }    
+ #btn .call-to-action a{
+ background-color: #55C18F;
+ color: #fff;
+ padding: 15px;
+ display: inline-block;
+ margin: 20px 0px 50px;
+ text-decoration: none;
+ transition: box-shadow 0.4s;
+}
+#btn .call-to-action a:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,.3);
+}
+#welcome {
+	background-color: #55C18F;
+	background-size: cover;
+	color: #fff;
+	padding: 50px;
+}
+#welcome h2{
+	text-align: center;
+	padding: 10px;
+}
+#welcome p{
+	padding: 10px;
+}
+.services-container, .works-container {
+    max-width: 700px;
+	margin: 50px auto;
+}
+.service {
+	margin: 20px 10px;
+}
+.service-title {
+	padding: 15px;
+	text-align: center;
+	border-bottom: 2px solid #fff;
+	font-size: 1.4em;
+}
+.work{
+	height: 300px;
+	margin: 20px 10px;
+	position: relative;
+	box-sizing: border-box;
+	background-size: cover;  
+	overflow: hidden;
+}
+ 
+ .work .work-title h4{
+   max-width: 700px;
+   box-sizing: border-box;
+  padding: 25px 20px;
+   text-align: center;
+   background-size: cover;
+   background-color: rgba(0,0,0,0.4); 
+   overflow:hidden;
+   position: absolute;
+   bottom: 25%;
+ 
+  }
+ .work .work-title .one{
+   text-align: center;
+   width: 100%;
+ }
+ .work .work-title .two{
+   text-align: center;
+   width: 100%; 
+ }
+ .work .work-title .three{
+   text-align: center;
+   width: 100%;
+ }
+ .work .work-title .four{
+   text-align: center;
+   width: 100%;
+  }
+ 
+ #blog {
+	 text-align: center;
+ }
+ #blog h2{
+	 padding: 15px;
+ }
+ #blog .call-to-action {
+	 margin: 10px 0px 20px; 
+ }
+ #blog .call-to-action a,
+ .article-button a{
+ background-color: #55C18F;
+ color: #fff;
+ padding: 15px;
+ display: inline-block;
+  
+ text-decoration: none;
+ transition: box-shadow 0.4s;
+}
+ 
+#blog .call-to-action a:hover,
+ .article-button a:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,.3);
+}
+.articles-container {
+	max-width: 700px;
+	margin: auto;
+}
+.article{
+	margin: 20px;
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+}
+.article-date{
+	padding: 15px;
+	color: #fff;
+	background-color: black;
+}
+.article-title{
+	padding: 15px;
+}
+.article-text {
+	padding: 0px 15px 10px;
+}
+.article-button{
+	width: 50%;
+	margin: auto;
+}
+.article-button a{
+	margin: 20px;
+}
+#testimonials{
+	background-color: #fff;
+	text-align :center;
+	padding-bottom: 50px;
+}
+#testimonials h2{
+	padding: 15px;
+	font-size: 1.5em;
+}
+ #testimonials h3 {
+	 padding: 10px 15px;
+	 font-size: 1.4em;
+ }
+ .testimonial{
+	 margin: 20px;
+	 border: 1px solid black;
+	 padding: 10px;
+ }
+ .testimonial img{
+	 height: 150px;
+	 width: 150px;
+	 margin: 20px auto;
+	 border-radius: 50%;
+ }	
+.testimonial p{
+     padding: 10px 0px;
+}	
+footer{
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+footer .services ul{
+	list-style: none;
+}
+footer .services li{
+	padding: 10px 0px;
+}
+footer .services h5{
+	/* padding: 15px 0px; */
+	font-size: 1.2em;
+	bottom: 140px;
+}
+footer .services{
+    margin-bottom: 20px; 
+}
+footer .services a{
+	 color: #fff;
+}
+footer .contact-info p{
+	padding: 10px 0px;
+}
+footer .contact-form{
+	padding: 20px  0px;
+}
+footer .contact-form input{
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0px;
+}
+footer .contact-form button{
+	 background-color: #55C18F;
+     color: #fff;
+    padding: 15px;
+    display: inline-block;
+     margin: 10px 0px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+	border: none;
+}
+
+    /* * * Responsive css * * */
+  @media screen and (min-width:750px){
+	header #logo{
+		display: inline-block;
+		width: 30%;
+		padding: 10px;
+	}
+	header nav{
+		display: inline-block;
+		width: 60%;
+	}
+	#intro{
+		height: 500px;
+		 
+	}
+	.intro-text{
+		bottom: 300px;
+	}
+	.services-container {
+      max-width: 500px;
+	}
+    .works-container .work {
+         display: inline-block;
+         width: 45.5%;
+    }		 
+	#blog .article, .testimonial {
+		float: left;
+		width: 44%;
+	}
+	#blog .articles-container:after,
+	#testimonials .testimonials-container:after{
+	    content: '';  
+		display: block;
+		clear: both; 
+	}
+	footer .services{
+		float: left;
+		width: 48%;
+	}
+	footer .contact-form input{
+		width: 40%;
+	}
+	footer .contact-form button{
+		margin-left: 20px;
+	}
+	
+	}
+  
+  
